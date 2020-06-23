@@ -1,0 +1,27 @@
+{
+  "name": "WhatsApp Dark Theme",
+  "version": "1.0.1",
+  "description": "Change your WhatsApp web app to dark theme.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "icons": {
+    "128": "icons/icon-128.png",
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    }
+  },
+  "manifest_version": 2
+}
