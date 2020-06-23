@@ -17,4 +17,4 @@ This code just add the class _"dark"_ to body tag of DOM on WhatsApp web page.
 
 &nbsp;
 
-** 🌚 🎉 You can check out the extension here: https://bit.ly/WhatsAppWebDark**
+**🌚 🎉 You can check out the extension here: https://bit.ly/WhatsAppWebDark**
